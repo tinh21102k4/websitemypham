@@ -1,0 +1,86 @@
+
+h1{
+    text-align: center;
+    padding-top: 40px;
+    color: rgb(155, 232, 41);
+    font-size: 50px;
+}
+h2{
+    cursor: pointer;
+    color: green;
+}
+p{
+    text-align: center;
+    padding: 10px 0px;
+    color: rgb(142, 188, 77);
+}
+.sanpham1{
+    display: flex;
+    padding: 50px 100px;
+    justify-content: space-between;
+}
+.sanpham2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
+}
+.loai2
+{
+    margin-top: 10px;
+}
+.sanpham3{
+    text-align: center;
+}
+.sanpham1
+{
+    border: none;
+    box-shadow: 5px 5px 5px rgba(152, 65, 65, 0.6);
+}
+.sanpham1 img{
+    cursor: pointer;
+    width: 500px;
+    height: 700px;
+    border: 5px solid rgb(108, 208, 99);
+    border-radius: 20px;
+    transition: 0.5 ease;
+}
+
+.sanpham2
+{
+    box-shadow: 5px 5px 5px rgba(152, 65, 65, 0.6);
+}
+.sanpham2 img{
+    cursor: pointer;
+    width: 350px;
+    height: 600px;
+    border: 5px solid rgb(108, 208, 99);
+    border-radius: 20px;
+    transition: 0.5 ease;
+
+}
+.sanpham3 .anh1 img{
+    cursor: pointer;
+    border: 5px solid rgb(108, 208, 99);
+    border-radius: 20px;
+    transition: 0.5s ease;
+    width: 600px;
+    height: 600px;
+    margin-top: 30px;
+
+}
+.sanpham3,
+.sanpham1,
+.sanpham2 img:hover{
+    transform: scale(1.1);
+}
+.sanpham3
+{
+    box-shadow: 5px 5px 5px rgba(152, 65, 65, 0.6);   
+}
+.anh1 p{
+    padding-bottom: 40px;
+}
+.footer
+{
+    margin-top: 100px;
+}
